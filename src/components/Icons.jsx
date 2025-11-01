@@ -1,0 +1,11 @@
+const Icon = ({ children, className }) => <span className={`mr-2 ${className}`}>{children}</span>;
+export const Briefcase = () => <Icon className="text-teal-400">💼</Icon>;
+export const Zap = () => <Icon className="text-teal-400">⚡</Icon>;
+export const GraduationCap = () => <Icon className="text-teal-400">🎓</Icon>;
+export const Mail = () => <Icon className="text-teal-400">✉️</Icon>;
+export const Scroll = () => <Icon className="text-teal-400">📜</Icon>; 
+export const CodeIcon = () => <span className="mr-1">🧑‍💻</span>; 
+export const DemoIcon = () => <span className="mr-1">🚀</span>; 
+export const Github = () => <Icon className="text-teal-400">🐙</Icon>;
+export const Linkedin = () => <Icon className="text-teal-400">🔗</Icon>;
+export const Smartphone = () => <Icon className="text-teal-400">📱</Icon>;
