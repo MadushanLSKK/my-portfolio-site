@@ -43,7 +43,7 @@ const AboutSection = ({ about }) => (
                 <div>
                     <h3 className="text-2xl font-bold text-white mb-1">Bandaranayake College Gampaha</h3>
                     <p className="text-lg text-teal-400 font-medium">G.C.E Advanced Level , Technology Stream</p>
-                    <p className="text-sm text-gray-400 mb-3">2019 - 2021 | Result: A A B | Z-Score: 1.9779</p>
+                    <p className="text-sm text-gray-400 mb-3">2019 - 2022 | Result: A A B | Z-Score: 1.9779</p>
                     <p className="text-gray-300">Completed Advanced Level education in Technology stream, developing foundational knowledge in engineering principles and technical subjects. Gained early exposure to technology concepts and problem-solving methodologies that supported transition to higher education in software engineering.</p>
                 </div>
 

@@ -26,8 +26,10 @@ const portfolioData = {
   
   certificates: [ 
     { name: "AWS Educate Introduction to Cloud 101", issuer: " Amazon Web Services Training and Certification", date: "August 06, 2025", link: "https://www.credly.com/badges/fd1d4fe8-8181-4af7-9806-4179a2a07f0e/linked_in_profile", icon: "☁️" },
-    { name: "React - The Complete Guide", issuer: "Academind", date: "April 2024", link: "https://mock-certificate-link-2.com", icon: "⚛️" },
-    { name: "Advanced SQL and Database Design", issuer: "Coursera / IBM", date: "Jan 2024", link: "https://mock-certificate-link-3.com", icon: "🗄️" }
+    { name: "Networking Basics", issuer: "Cisco", date: "August 02, 2025", link: "https://www.credly.com/badges/66dcd5a6-2f95-4156-b4c9-8aa0380374d5/linked_in_profile", icon: "🛜" },
+    { name: "LFS101: Introduction to Linux", issuer: "The Linux Foundation", date: "August 21, 2025", link: "https://www.credly.com/badges/2396d585-b1b5-47b7-b756-f82f01a3d825/linked_in_profile", icon: "💻" },
+    { name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate", issuer: "Oracle", date: "July 28, 2027", link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=382FF5CD7BD576140DC0AC8E636378555466E869B0AA7D2C95E1528157393AE0", icon: "☁️" },
+    { name: " Programming in Python - 1. Python for Beginners", issuer: " Open Learning Platform - UoM", date: "Dec 2024", link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", icon: "☁️" },
   ],
   projects: [
     { title: "Task Manager Pro (MERN Stack)", description: "A full-stack application allowing users to create, organize, and track personal and team tasks. Features real-time updates and user authentication.", technologies: ["React", "Express", "MongoDB", "Redux"], liveLink: "https://taskmanagerpro.netlify.app", githubLink: "https://github.com/alex-dev/task-manager-pro" },
