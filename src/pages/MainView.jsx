@@ -7,6 +7,18 @@ import CertificatesSection from '../sections/CertificatesSection.jsx';
 import ProjectsSection from '../sections/ProjectsSection.jsx';
 import ContactSection from '../sections/ContactSection.jsx';
 import Footer from '../components/Footer.jsx';
+import aws from '../assets/aws.png';
+import network from '../assets/network.png';
+import linux from '../assets/linux.png';
+import python from '../assets/python.png'
+import oracle from '../assets/oracle.png'
+import react from '../assets/react.avif'
+import inventory from '../assets/inventory.png'
+import library from '../assets/library.png'
+import mobileapp from '../assets/mobileapp.png'
+import internship from '../assets/internship.png'
+import clothshop from '../assets/clothshop.png'
+
 import {
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
   SiExpress, SiMysql, SiMongodb, SiGit, SiGithub,
@@ -36,16 +48,19 @@ const portfolioData = {
   ],
   
   certificates: [ 
-    { name: "AWS Educate Introduction to Cloud 101", issuer: " Amazon Web Services Training and Certification", date: "August 06, 2025", link: "https://www.credly.com/badges/fd1d4fe8-8181-4af7-9806-4179a2a07f0e/linked_in_profile", icon: "☁️" },
-    { name: "Networking Basics", issuer: "Cisco", date: "August 02, 2025", link: "https://www.credly.com/badges/66dcd5a6-2f95-4156-b4c9-8aa0380374d5/linked_in_profile", icon: "🛜" },
-    { name: "LFS101: Introduction to Linux", issuer: "The Linux Foundation", date: "August 21, 2025", link: "https://www.credly.com/badges/2396d585-b1b5-47b7-b756-f82f01a3d825/linked_in_profile", icon: "💻" },
-    { name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate", issuer: "Oracle", date: "July 28, 2027", link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=382FF5CD7BD576140DC0AC8E636378555466E869B0AA7D2C95E1528157393AE0", icon: "☁️" },
-    { name: " Programming in Python - 1. Python for Beginners", issuer: " Open Learning Platform - UoM", date: "Dec 2024", link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", icon: "☁️" },
+    { name: "AWS Educate Introduction to Cloud 101", issuer: " Amazon Web Services Training and Certification", date: "August 06, 2025", link: "https://www.credly.com/badges/fd1d4fe8-8181-4af7-9806-4179a2a07f0e/linked_in_profile", icon: aws },
+    { name: "Networking Basics", issuer: "Cisco", date: "August 02, 2025", link: "https://www.credly.com/badges/66dcd5a6-2f95-4156-b4c9-8aa0380374d5/linked_in_profile", icon:network },
+    { name: "LFS101: Introduction to Linux", issuer: "The Linux Foundation", date: "August 21, 2025", link: "https://www.credly.com/badges/2396d585-b1b5-47b7-b756-f82f01a3d825/linked_in_profile", icon:linux  },
+    { name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate", issuer: "Oracle", date: "July 28, 2027", link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=382FF5CD7BD576140DC0AC8E636378555466E869B0AA7D2C95E1528157393AE0", icon: oracle },
+    { name: " Programming in Python - 1. Python for Beginners", issuer: " Open Learning Platform - UoM", date: "Dec 2024", link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", icon:python },
+    { name: "ReactJS for Beginners ", issuer: "Simplilearn  ", date: "2025", link: "https://simpli-web.app.link/e/REb6ffskgYb", icon:react },
   ],
   projects: [
-    { title: "Task Manager Pro (MERN Stack)", description: "A full-stack application allowing users to create, organize, and track personal and team tasks. Features real-time updates and user authentication.", technologies: ["React", "Express", "MongoDB", "Redux"], liveLink: "https://taskmanagerpro.netlify.app", githubLink: "https://github.com/alex-dev/task-manager-pro" },
-    { title: "Inventory Management System", description: "Developed a computer-based Inventory Management System for the university, replacing manual records. Features include item tracking, automated repair notifications, role-based access, and report generation for data-driven decisions. Achieved faster processing, improved accuracy, and enhanced user satisfaction.", technologies: ["React", "Tailwind CSS", "Express","MongoDB"], liveLink: "https://ecommerce-mockup-demo.vercel.app", githubLink: "https://github.com/MalithDN/Inventory-Management-System-For-University-Faculty" },
-    { title: "Library Management System", description: "Built a dynamic web application for managing users, books, and categories with secure authentication and role-based access. Implemented CRUD operations, login, registration, and session management, delivering a smooth and reliable experience. Collaborated in a 6-member team using GitHub and Agile, creating a clean, responsive, and user-friendly interface.", technologies: ["HTML", "CSS", "PHP"], liveLink: "#", githubLink: "https://github.com/ManugaK/Web-App-Project" },
+    { title: "Internship Finder (MERN Stack)", description: "Developed a MERN-based platform connecting students, companies, and admins for internship management, featuring secure role-based authentication, internship postings, and application tracking.", technologies: ["React", "Node(Express)", "MongoDB", "Zustand"], liveLink: "https://taskmanagerpro.netlify.app", githubLink: "https://github.com/alex-dev/task-manager-pro" ,icon:internship},
+    { title: "Inventory Management System", description: "Developed a computer-based Inventory Management System for the university, replacing manual records. Features include item tracking, automated repair notifications, role-based access, and report generation for data-driven decisions. Achieved faster processing, improved accuracy, and enhanced user satisfaction.", technologies: ["React", "Tailwind CSS", "Express","MongoDB"], liveLink: "https://ecommerce-mockup-demo.vercel.app", githubLink: "https://github.com/MalithDN/Inventory-Management-System-For-University-Faculty",icon:inventory },
+    { title: "Library Management System", description: "Built a dynamic web application for managing users, books, and categories with secure authentication and role-based access. Implemented CRUD operations, login, registration, and session management, delivering a smooth and reliable experience. Collaborated in a 6-member team using GitHub and Agile, creating a clean, responsive, and user-friendly interface.", technologies: ["HTML", "CSS", "PHP"], liveLink: "#", githubLink: "https://github.com/ManugaK/Web-App-Project",icon:library },
+    { title: "FOT PULSE", description: "Built a mobile app with user authentication, profile management, and categorized news updates. Designed modern UIs in Figma based on Material Design for an engaging user experience.", technologies: ["Android Studio", "Java", "Figma","Firebase"], liveLink: "#", githubLink: "https://github.com/MadushanLSKK/FOTPULSE.git",icon:mobileapp },
+    { title: "Online Clothing Shop (Ongoing)", description: "Built a mobile app with user authentication, profile management, and categorized news updates. Designed modern UIs in Figma based on Material Design for an engaging user experience.", technologies: ["React", "Node(Express)", "MongoDB"], liveLink: "#", githubLink: "https://github.com/MadushanLSKK/FOTPULSE.git",icon: clothshop},
   ],
   contact: {
     email: "kmadushan396@gmail.com",

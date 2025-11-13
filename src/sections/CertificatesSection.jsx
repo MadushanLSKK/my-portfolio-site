@@ -11,7 +11,7 @@ const CertificatesSection = ({ certificates }) => (
                     className="p-6 bg-gray-800 rounded-xl shadow-2xl border border-teal-700/50 transition duration-300 hover:border-teal-400 hover:scale-[1.02] flex flex-col justify-between"
                 >
                     <div>
-                        <div className="text-4xl mb-3">{cert.icon}</div>
+                        <img src={cert.icon} className="w-25 h-25 mb-3 "/>
                         <h3 className="text-xl font-bold text-teal-300 mb-1">{cert.name}</h3>
                         <p className="text-sm text-gray-400 italic mb-3">Issued by: {cert.issuer}</p>
                         <p className="text-sm text-gray-300 mb-4">Completed: {cert.date}</p>

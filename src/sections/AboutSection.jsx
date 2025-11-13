@@ -14,9 +14,9 @@ const AboutSection = ({ about }) => (
         <section id="education" className="mb-16">
             <SectionTitle icon={<GraduationCap />}>Education</SectionTitle>
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-5">
                 
-                <div className="p-6 bg-gray-800 rounded-2xl shadow-2xl border-l-4 border-teal-500 hover:shadow-teal-900/50 transition duration-300 flex items-start">
+                <div className="p-6 bg-gray-800 rounded-2xl shadow-2xl border-l-4 border-teal-500 hover:shadow-teal-900/50 transition duration-300 md:flex md:items-start flex-column">
                 <img 
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmzMPvsqmNDlJ9wc5kaqZDB9KSArvE6ldguA&s" 
                     alt="University Logo" 
@@ -33,7 +33,7 @@ const AboutSection = ({ about }) => (
                 
                 </div>
 
-                <div className="p-6 bg-gray-800 rounded-2xl shadow-2xl border-l-4 border-teal-500 hover:shadow-teal-900/50 transition duration-300 flex items-start">
+                <div className="p-6 bg-gray-800 rounded-2xl shadow-2xl border-l-4 border-teal-500 hover:shadow-teal-900/50 transition duration-300 md:flex md:items-start flex-column">
                 <img 
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQameJXkZT9PUYo4B5thp300QwDIxIKyxZ2Tkwm_ZM5grkhWIeiw5dVrNwFo-LVj_v8nE&usqp=CAU" 
                     alt="University Logo" 

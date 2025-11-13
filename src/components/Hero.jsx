@@ -27,7 +27,7 @@ const Hero = ({ name, title, tagline }) => {
                 
                 <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mt-10">
                     <a 
-                        href="/cv.pdf"
+                        href="/CV.pdf"
                         download="cv.pdf"
                         className="inline-block px-8 py-3 bg-gray-700 text-white font-semibold rounded-full shadow-lg border border-teal-500 hover:bg-gray-600 transition duration-300 transform hover:scale-[1.03]"
                     >
