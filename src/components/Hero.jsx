@@ -10,13 +10,13 @@ const Hero = ({ name, title, tagline }) => {
     };
 
     return (
-        <section id="hero" className="relative pt-24 pb-32 overflow-hidden bg-gray-900">
+        <section id="hero" className="relative pt-20 pb-32 overflow-hidden bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className="mb-4">
                     <img 
                         src={PROFILE_PIC_URL}
                         alt="Alex Johnson Profile" 
-                        className="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-teal-300 shadow-xl object-cover animate-pulse-slow"
+                        className="w-50 h-50 rounded-full mx-auto mb-4 border-4 border-teal-300 shadow-xl object-cover animate-pulse-slow"
                     />
                 </div>
                 <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-2" style={titleGlowStyle}>{name}</h1>

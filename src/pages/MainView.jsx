@@ -7,6 +7,12 @@ import CertificatesSection from '../sections/CertificatesSection.jsx';
 import ProjectsSection from '../sections/ProjectsSection.jsx';
 import ContactSection from '../sections/ContactSection.jsx';
 import Footer from '../components/Footer.jsx';
+import {
+  SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
+  SiExpress, SiMysql, SiMongodb, SiGit, SiGithub,
+  SiBootstrap, SiPython, SiC, SiAndroidstudio, 
+  SiTailwindcss, SiFigma
+} from 'react-icons/si';
 
 
 const portfolioData = {
@@ -15,13 +21,18 @@ const portfolioData = {
   tagline: "Bridging theoretical knowledge with practical, scalable solutions.",
   about: "I am a dedicated BICT student at the University of Colombo with a strong foundation in modern web technologies and a passion for Full Stack Development, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). I seek an internship to apply my skills in building scalable, user-friendly applications, collaborate with experienced engineers, and contribute to innovative projects. I thrive in fast-paced environments and am eager to continuously learn new technologies, architectural patterns, and best practices to grow as a professional Full Stack Developer.",
   skills: [
-    { name: "JavaScript", level: "Advanced", percentage: 90 },
-    { name: "React.js", level: "Advanced", percentage: 85 },
-    { name: "Node.js (Express)", level: "Intermediate", percentage: 70 },
-    { name: "Tailwind CSS", level: "Advanced", percentage: 95 },
-    { name: "Python", level: "Intermediate", percentage: 65 },
-    { name: "MongoDB", level: "Beginner", percentage: 50 },
-    { name: "Git & GitHub", level: "Advanced", percentage: 90 },
+    { name: "HTML5", level: "Advanced", percentage: 90 , image: <SiHtml5/>, color: "#E34F26"  },
+    { name: "CSS3", level: "Advanced", percentage: 90 , image: <SiCss3/>, color: "#1572B6"  },
+    { name: "JavaScript", level: "Advanced", percentage: 90 , image: <SiJavascript/>, color: "#F7DF1E"  },
+    { name: "React.js", level: "Advanced", percentage: 85 , image:<SiReact/>, color: '#61DAFB' },
+    { name: "Node.js ", level: "Intermediate", percentage: 70, image:<SiNodedotjs/>, color: '#339933' },
+    { name: "Express", level: "Intermediate", percentage: 70, image:<SiExpress/>, color: '#888888' },
+    { name: "MongoDB", level: "Beginner", percentage: 50, image:<SiMongodb/>, color: '#4DB33D' },
+    { name: "Tailwind CSS", level: "Advanced", percentage: 95 , image:<SiTailwindcss/>, color: '#38BDF8'},
+    { name: "Python", level: "Intermediate", percentage: 65, image:<SiPython/>, color: '#3776AB' },
+    { name: "Git", level: "Advanced", percentage: 90 , image:<SiGit/> ,color: '#F1502F' },
+    { name: " GitHub", level: "Advanced", percentage: 90 , image:<SiGithub/>, color: '#ffffff'},
+    { name: "Mysql", level: "Advanced", percentage: 90 , image: <SiMysql/>, color: "#4479A1"  },
   ],
   
   certificates: [ 
