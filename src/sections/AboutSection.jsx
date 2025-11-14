@@ -26,7 +26,7 @@ const AboutSection = ({ about }) => (
                 <div>
                     <h3 className="text-2xl font-bold text-white mb-1">University of Colombo</h3>
                     <p className="text-lg text-teal-400 font-medium">BICT (Honours)</p>
-                    <p className="text-sm text-gray-400 mb-3">2023 - Present (Expected Graduation: May 2027) | GPA: 3.44/4.0</p>
+                    <p className="text-sm text-gray-400 mb-3">2023 - Present (Expected Graduation: May 2027) | GPA: 3.453/4.0</p>
                     <p className="text-gray-300">Relevant Coursework: Data Structures & Algorithms, Database Management, Software Engineering Principles, Web Development.</p>
                 </div>
 

@@ -30,10 +30,16 @@ const ContactSection = ({ contact }) => (
                     <Mail />
                     <a href={`mailto:${contact.email}`} className="ml-3 text-lg">{contact.email}</a>
                 </div>
-                <div className="flex items-center text-gray-300">
+                <div className="flex items-center text-gray-300 hover:text-teal-300 transition duration-200">
                     <Smartphone />
-                    <span className="ml-3 text-lg">{contact.phone}</span>
+                    <a
+                        href={`tel:${contact.phone}`}
+                        className="ml-3 text-lg  "
+                    >
+                        {contact.phone}
+                    </a>
                 </div>
+
                 <div className="flex items-center text-gray-300 hover:text-teal-300 transition duration-200">
                     <Linkedin />
                     <a href={`https://${contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="ml-3 text-lg font-medium">LinkedIn Profile</a>
