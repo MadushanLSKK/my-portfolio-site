@@ -9,3 +9,4 @@ export const DemoIcon = () => <span className="mr-1">🚀</span>;
 export const Github = () => <Icon className="text-teal-400">🐙</Icon>;
 export const Linkedin = () => <Icon className="text-teal-400">🔗</Icon>;
 export const Smartphone = () => <Icon className="text-teal-400">📱</Icon>;
+export const Location = () => <Icon className="text-teal-400">📍</Icon>;

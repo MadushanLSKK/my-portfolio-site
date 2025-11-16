@@ -1,5 +1,5 @@
 import SectionTitle from "../components/SectionTitle";
-import { Mail, Smartphone ,Linkedin,Github } from "../components/Icons";
+import { Mail, Smartphone ,Linkedin,Github ,Location } from "../components/Icons";
 import emailjs from '@emailjs/browser';
 
 
@@ -47,6 +47,17 @@ const ContactSection = ({ contact }) => (
                 <div className="flex items-center text-gray-300 hover:text-teal-300 transition duration-200">
                     <Github />
                     <a href={`https://${contact.github}`} target="_blank" rel="noopener noreferrer" className="ml-3 text-lg font-medium">GitHub Profile</a>
+                </div>
+                 <div className="flex items-center text-gray-300 hover:text-teal-300 transition duration-200">
+                    <Location />
+                    <a 
+                        href="https://www.google.com/maps?q=7.0638818,80.0940683" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="ml-3 text-lg font-medium"
+                        >
+                        Location
+                    </a>
                 </div>
             </div>
 

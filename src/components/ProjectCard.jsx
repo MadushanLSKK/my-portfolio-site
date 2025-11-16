@@ -4,7 +4,7 @@ import { CodeIcon, DemoIcon } from "./Icons";
 const ProjectCard = ({ project  }) => (
   <div className="bg-gray-800 p-8 rounded-2xl shadow-2xl border border-gray-700 transition duration-500 transform hover:scale-[1.02] hover:shadow-teal-500/70 hover:bg-gray-700/90 flex flex-col justify-between">
     <div>
-      <img src={project.icon} className=" mb-3"/>
+      <img src={project.icon} className=" mb-3 border-2 border-teal-500 shadow-teal-600/40 shadow-xl"/>
       <h3 className="text-xl font-semibold text-teal-300 mb-2">{project.title}</h3>
       <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
       <div className="flex flex-wrap gap-2 mb-4">
