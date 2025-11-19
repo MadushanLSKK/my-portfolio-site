@@ -4,14 +4,14 @@ import { Briefcase, GraduationCap } from "../components/Icons";
 
 const AboutSection = ({ about }) => (
     <>
-        <section id="about" className="mb-16">
+        <section id="about" className="mb-16 font-mono scroll-mt-20">
             <SectionTitle icon={<Briefcase />}>About Me</SectionTitle>
             <div className="p-8 bg-gray-800 rounded-2xl shadow-2xl border border-gray-700/50 hover:border-teal-500 transition duration-300">
                 <p className="text-lg text-gray-300 leading-relaxed">{about}</p>
             </div>
         </section>
 
-        <section id="education" className="mb-16">
+        <section id="education" className="mb-16 font-mono scroll-mt-20">
             <SectionTitle icon={<GraduationCap />}>Education</SectionTitle>
 
             <div className="flex flex-col gap-5">

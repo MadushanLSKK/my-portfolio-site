@@ -2,7 +2,7 @@ import SectionTitle from "../components/SectionTitle";
 import { Scroll } from "../components/Icons";
 
 const CertificatesSection = ({ certificates }) => (
-    <section id="certificates" className="mb-16">
+    <section id="certificates" className="mb-16 font-mono scroll-mt-20">
         <SectionTitle icon={<Scroll />}>Certificates & Formal Training</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {certificates.map((cert, index) => (

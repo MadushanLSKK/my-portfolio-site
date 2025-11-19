@@ -56,7 +56,7 @@ const portfolioData = {
     { name: "ReactJS for Beginners ", issuer: "Simplilearn  ", date: "2025", link: "https://simpli-web.app.link/e/REb6ffskgYb", icon:react },
   ],
   projects: [
-    { title: "Internship Finder (MERN Stack)", description: "Developed a MERN-based platform connecting students, companies, and admins for internship management, featuring secure role-based authentication, internship postings, and application tracking.", technologies: ["React", "Node(Express)", "MongoDB", "Zustand"], liveLink: "", githubLink: "" ,icon:internship},
+    { title: "Internship Finder (MERN Stack)", description: "Developed a MERN-based platform connecting students, companies, and admins for internship management, featuring secure role-based authentication, internship postings, and application tracking.", technologies: ["React", "Node(Express)", "MongoDB", "Zustand"], liveLink: "", githubLink: "https://github.com/MadushanLSKK/Internship-Finder.git" ,icon:internship},
     { title: "Inventory Management System", description: "Developed a computer-based Inventory Management System for the university, replacing manual records. Features include item tracking, automated repair notifications, role-based access, and report generation for data-driven decisions. Achieved faster processing, improved accuracy, and enhanced user satisfaction.", technologies: ["React", "Tailwind CSS", "Express","MongoDB"], liveLink: "https://ecommerce-mockup-demo.vercel.app", githubLink: "https://github.com/MalithDN/Inventory-Management-System-For-University-Faculty",icon:inventory },
     { title: "Library Management System", description: "Built a dynamic web application for managing users, books, and categories with secure authentication and role-based access. Implemented CRUD operations, login, registration, and session management, delivering a smooth and reliable experience. Collaborated in a 6-member team using GitHub and Agile, creating a clean, responsive, and user-friendly interface.", technologies: ["HTML", "CSS", "PHP"], liveLink: "#", githubLink: "https://github.com/ManugaK/Web-App-Project",icon:library },
     { title: "FOT PULSE", description: "Built a mobile app with user authentication, profile management, and categorized news updates. Designed modern UIs in Figma based on Material Design for an engaging user experience.", technologies: ["Android Studio", "Java", "Figma","Firebase"], liveLink: "#", githubLink: "https://github.com/MadushanLSKK/FOTPULSE.git",icon:mobileapp },
@@ -76,7 +76,7 @@ export const MainView = () => {
   return (
     <div className="min-h-screen bg-black text-gray-100 font-sans scroll-pt-32">
       
-      <Header name={name} />
+      <Header />
 
       <Hero name={name} title={title} tagline={tagline} />
 

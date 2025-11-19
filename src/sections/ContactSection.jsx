@@ -19,7 +19,7 @@ const sendEmail = (e) => {
 
 
 const ContactSection = ({ contact }) => (
-    <section id="contact" className="mb-16">
+    <section id="contact" className="mb-16 font-mono scroll-mt-20">
         <SectionTitle icon={<Mail />}>Contact Me</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-800 p-10 rounded-2xl shadow-2xl border border-teal-500/30">
             
@@ -88,7 +88,7 @@ const ContactSection = ({ contact }) => (
                     ></textarea>
                     <button
                     type="submit"
-                    className="w-full py-3 bg-teal-600 text-white font-semibold rounded-lg shadow-xl shadow-teal-700/30 hover:bg-teal-500 transition duration-300 transform hover:-translate-y-0.5"
+                    className="w-full py-3 bg-linear-to-r from-teal-400 to-blue-500 text-white font-semibold rounded-lg shadow-xl shadow-teal-700/30 hover:bg-teal-500 transition duration-300 transform hover:-translate-y-0.5"
                     >
                     Send Message
                     </button>
