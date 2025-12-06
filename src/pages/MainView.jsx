@@ -23,7 +23,7 @@ import {
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
   SiExpress, SiMysql, SiMongodb, SiGit, SiGithub,
   SiBootstrap, SiPython, SiC, SiAndroidstudio, 
-  SiTailwindcss, SiFigma
+  SiTailwindcss, SiPhp
 } from 'react-icons/si';
 
 
@@ -45,6 +45,7 @@ const portfolioData = {
     { name: "Git", level: "Advanced", percentage: 90 , image:<SiGit/> ,color: '#F1502F' },
     { name: " GitHub", level: "Advanced", percentage: 90 , image:<SiGithub/>, color: '#ffffff'},
     { name: "Mysql", level: "Advanced", percentage: 90 , image: <SiMysql/>, color: "#4479A1"  },
+    { name: "PHP", level: "Advanced", percentage: 90 , image: <SiPhp/>, color: "#4479A1"  }
   ],
   
   certificates: [ 
