@@ -23,7 +23,7 @@ import {
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
   SiExpress, SiMysql, SiMongodb, SiGit, SiGithub,
   SiBootstrap, SiPython, SiC, SiAndroidstudio, 
-  SiTailwindcss, SiPhp
+  SiTailwindcss, SiPhp, SiNextdotjs , SiTypescript , SiPostgresql
 } from 'react-icons/si';
 
 
@@ -31,7 +31,7 @@ const portfolioData = {
   name: "Kavindu Madushan",
   title: "Aspiring Full Stack Developer Intern",
   tagline: "Bridging theoretical knowledge with practical, scalable solutions.",
-  about: "I am a dedicated BICT student at the University of Colombo with a strong foundation in modern web technologies and a passion for Full Stack Development, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js). I seek an internship to apply my skills in building scalable, user-friendly applications, collaborate with experienced engineers, and contribute to innovative projects. I thrive in fast-paced environments and am eager to continuously learn new technologies, architectural patterns, and best practices to grow as a professional Full Stack Developer.",
+  about: "BICT Undergraduate at the University of Colombo with a passion for Full Stack Development, DevOps, Cloud Computing, and Networking. Skilled in JavaScript, React, Next.js, Node.js, Express.js, PHP, Python, SQL, HTML, and CSS. Currently focused on building strong software engineering and DevOps foundations through academic projects and continuous learning. Seeking opportunities to apply my skills, gain industry experience, and contribute to innovative technology solutions",
   skills: [
     { name: "HTML5", level: "Advanced", percentage: 90 , image: <SiHtml5/>, color: "#E34F26"  },
     { name: "CSS3", level: "Advanced", percentage: 90 , image: <SiCss3/>, color: "#1572B6"  },
@@ -45,7 +45,9 @@ const portfolioData = {
     { name: "Git", level: "Advanced", percentage: 90 , image:<SiGit/> ,color: '#F1502F' },
     { name: " GitHub", level: "Advanced", percentage: 90 , image:<SiGithub/>, color: '#ffffff'},
     { name: "Mysql", level: "Advanced", percentage: 90 , image: <SiMysql/>, color: "#4479A1"  },
-    { name: "PHP", level: "Advanced", percentage: 90 , image: <SiPhp/>, color: "#4479A1"  }
+    { name: "Next.js", level: "Advanced", percentage: 90 , image: <SiNextdotjs/>, color: "#000000"  },
+    { name: "Typescript", level: "Beginner", percentage: 40 , image: <SiTypescript/>, color: "#3178C6"  },
+    { name: "Postgrasql", level: "Beginner", percentage: 50 , image: <SiPostgresql/>, color: "#336791"  },
   ],
   
   certificates: [ 
@@ -53,8 +55,6 @@ const portfolioData = {
     { name: "Networking Basics", issuer: "Cisco", date: "August 02, 2025", link: "https://www.credly.com/badges/66dcd5a6-2f95-4156-b4c9-8aa0380374d5/linked_in_profile", icon:network },
     { name: "LFS101: Introduction to Linux", issuer: "The Linux Foundation", date: "August 21, 2025", link: "https://www.credly.com/badges/2396d585-b1b5-47b7-b756-f82f01a3d825/linked_in_profile", icon:linux  },
     { name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate", issuer: "Oracle", date: "July 28, 2027", link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=382FF5CD7BD576140DC0AC8E636378555466E869B0AA7D2C95E1528157393AE0", icon: oracle },
-    { name: " Programming in Python - 1. Python for Beginners", issuer: " Open Learning Platform - UoM", date: "Dec 2024", link: "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", icon:python },
-    { name: "ReactJS for Beginners ", issuer: "Simplilearn  ", date: "2025", link: "https://simpli-web.app.link/e/REb6ffskgYb", icon:react },
   ],
   projects: [
     { title: "Internship Finder (MERN Stack)", description: "Developed a MERN-based platform connecting students, companies, and admins for internship management, featuring secure role-based authentication, internship postings, and application tracking.", technologies: ["React", "Node(Express)", "MongoDB", "Zustand"], liveLink: "", githubLink: "https://github.com/MadushanLSKK/Internship-Finder.git" ,icon:internship},
