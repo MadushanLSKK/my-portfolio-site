@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from '../assets/profileImage.png'
+import ProfileImage from '../assets/profileImage.jpeg'
 
 
 const PROFILE_PIC_URL = ProfileImage ;
